@@ -4,3 +4,5 @@ _site/
 .*.sw[pon]
 *.pyc
 *.mp4
+data
+.vscode
