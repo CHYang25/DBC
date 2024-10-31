@@ -6,9 +6,9 @@
 [Chun-Mao Lai](https://www.mecoli.net/),
 [Shao-Hua Sun](https://shaohua0116.github.io) at [NTU RLL lab](https://nturll.xyz/about)
 
-[[Project website]](https://nturobotlearninglab.github.io/dbc/) [[Paper]](https://arxiv.org/abs/2302.13335)
+[[Project website]](https://nturobotlearninglab.github.io/DBC/) [[Paper]](https://arxiv.org/abs/2302.13335)
 
-This is the official PyTorch implementation of the paper ["Diffusion Model-Augmented Behavioral Cloning"](https://nturobotlearninglab.github.io/dbc/) (ICML2024).
+This is the official PyTorch implementation of the paper ["Diffusion Model-Augmented Behavioral Cloning"](https://nturobotlearninglab.github.io/DBC/) (ICML2024).
 
 ![image](docs/img/framework.jpeg)
 
@@ -28,14 +28,11 @@ pip install -e .
 cd ../rl-toolkit
 pip install -e .
 
+cd ..
 mkdir -p data/trained_models
 ```
 
 2. Setup [Weights and Biases](https://wandb.ai/site) by first logging in with `wandb login <YOUR_API_KEY>` and then editing `config.yaml` with your W&B username and project name.
-
-```
-python download_demos.py
-```
 
 ## How to reproduce experiments
 - For diffusion model pretraining, run `dbc/ddpm.py`.
